@@ -77,7 +77,7 @@
     <nav class="nav" id="nav" aria-label="Main navigation">
         <div class="container nav-inner">
             <div class="nav-logo">AI YHCT <span>by Tody</span></div>
-            <a href="#pricing" class="nav-cta">Đăng Ký — 100 Suất</a>
+            <a href="#" class="nav-cta">Đăng Ký — 100 Suất</a>
         </div>
     </nav>
 
@@ -94,8 +94,8 @@
                     KTV mới — mà không cần tuyển thêm chuyên gia nào.</p>
 
                 <div class="hero-actions">
-                    <a href="#pricing" class="btn btn-primary">Sở Hữu Ngay — Chỉ 1 Triệu</a>
-                    <a href="#features" class="btn btn-outline">AI làm được gì? →</a>
+                    <a href="#" class="btn btn-primary">Sở Hữu Ngay — Chỉ 1 Triệu</a>
+                    <a href="how-it-works.html" class="btn btn-outline">Xem AI Hoạt Động →</a>
                 </div>
 
                 <div class="hero-stats">
@@ -328,8 +328,7 @@
                         <li><span class="check">✓</span> Bảo mật — đối thủ không sao chép được</li>
                     </ul>
 
-                    <a href="https://khoahochuyetdao.com" class="btn btn-primary btn-full" id="cta-main">Giữ Chỗ Ngay —
-                        Giá 1 Triệu</a>
+                    <a href="#" class="btn btn-primary btn-full" id="cta-main">Giữ Chỗ Ngay — Giá 1 Triệu</a>
                     <p class="price-guarantee">Hoàn tiền 100% trong 7 ngày • Thanh toán an toàn</p>
                 </div>
             </div>
@@ -397,7 +396,7 @@
                 <h2>Chần Chừ 1 Ngày — <span class="text-gold">Giá Tăng Thêm</span></h2>
                 <p>100 suất. Giá từ 1 triệu. Ngay lúc bạn đọc dòng này — có thể ai đó đã đăng ký. Đừng đợi giá 30 triệu
                     rồi mới tiếc.</p>
-                <a href="#pricing" class="btn btn-primary">Giữ Chỗ Ngay — Giá 1 Triệu</a>
+                <a href="#" class="btn btn-primary">Giữ Chỗ Ngay — Giá 1 Triệu</a>
             </div>
         </section>
 
@@ -423,7 +422,7 @@
                 <div class="footer-col">
                     <h4>Hỗ trợ</h4>
                     <a href="#faq">Câu hỏi thường gặp</a>
-                    <a href="https://khoahochuyetdao.com" target="_blank" rel="noopener">Đăng ký tư vấn</a>
+                    <a href="how-it-works.html">Cách AI hoạt động</a>
                     <a href="#pricing">Bảng giá</a>
                 </div>
             </div>
@@ -434,6 +433,32 @@
             </div>
         </div>
     </footer>
+
+    <!-- BOTTOM SHEET OVERLAY & CONTENT -->
+    <div id="sheetOverlay" class="sheet-overlay"></div>
+    <div id="registerSheet" class="bottom-sheet" aria-hidden="true" role="dialog" aria-modal="true"
+        aria-labelledby="sheetTitle">
+        <div class="sheet-drag-handle"></div>
+        <div class="sheet-header">
+            <h2 id="sheetTitle" class="sheet-title">Giữ Suất Ưu Đãi</h2>
+            <button id="closeSheetBtn" class="sheet-close" aria-label="Đóng bảng đăng ký">×</button>
+        </div>
+        <div class="sheet-content">
+            <p style="color:var(--text-muted); font-size: 0.9rem; margin-bottom: 24px; line-height:1.5;">Hãy để lại
+                thông tin để chúng tôi liên hệ tư vấn và cài đặt ngay hệ thống AI cho Spa của bạn.</p>
+            <form action="https://khoahochuyetdao.com" method="GET"
+                style="display: flex; flex-direction: column; gap: 16px;">
+                <input type="text" placeholder="Tên của bạn *" required
+                    style="width: 100%; padding: 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg); color: var(--text); min-height: 44px; font-family: inherit; font-size: 1rem;" />
+                <input type="tel" placeholder="Số điện thoại Zalo *" required
+                    style="width: 100%; padding: 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--bg); color: var(--text); min-height: 44px; font-family: inherit; font-size: 1rem;" />
+                <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Xác Nhận Giữ Chỗ — Tăng Doanh
+                    Thu</button>
+            </form>
+            <p style="text-align: center; font-size: 0.75rem; color: var(--text-dim); margin-top: 16px;">Cam kết hoàn
+                tiền trong 7 ngày</p>
+        </div>
+    </div>
 
     <script src="scripts.js" defer></script>
 </body>
